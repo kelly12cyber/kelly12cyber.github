@@ -1,0 +1,138 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Ghana</title>
+
+    <style>
+        /* ===== General Styles ===== */
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Tahoma, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* ===== Navigation Bar ===== */
+        nav {
+            background-color: #2c2c54;
+            padding: 15px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        nav .nav-container {
+            max-width: 1100px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            color: #ffffff;
+            font-weight: 500;
+            padding: 8px 12px;
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: blueviolet;
+        }
+
+        /* ===== Hero Section ===== */
+        header {
+            background: linear-gradient(
+                rgba(44, 44, 84, 0.6),
+                rgba(44, 44, 84, 0.6)
+            ),
+            url("images/ghana-hero.jpg");
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 70px 20px;
+        }
+
+        header h1 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        header h1 span {
+            color: #d6b3ff;
+        }
+
+        /* ===== Main Content ===== */
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+
+        main p:first-child {
+            font-weight: 600;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+        }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.6em;
+            }
+
+            nav .nav-container {
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="home.html">Home</a>
+            <a href="over.html">Overview</a>
+            <a href="attractions.html">Attractions</a>
+            <a href="travel.html">Travel Tips</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms & Conditions</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header>
+        <h1>DISCOVER <span>GHANA</span></h1>
+        <p>A Tourism Website</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <p>Welcome to Discover Ghana!</p>
+        <p>
+            Ghana is a beautiful country in West Africa known for its rich culture,
+            warm hospitality, historic landmarks, and breathtaking natural attractions.
+            This website introduces you to some of Ghana’s most popular tourist sites,
+            from historic castles and national parks to wildlife reserves and scenic lakes.
+            Explore, learn, and experience the beauty of Ghana.
+        </p>
+    </main>
+    <script>
+        alert("WELCOME TO MY WEBSITE")
+    </script>
+</body>
+</html>
